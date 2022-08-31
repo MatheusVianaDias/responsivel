@@ -1,7 +1,7 @@
 .cabeçalho__menu-hamburguer {
     width: 25px;
     height: 25px;
-    background-image: url(../AluraBooks/Menu.svg);
+    background-image: url(../img/Menu.svg);
     display: inline-block;
 }
 
@@ -27,6 +27,7 @@
     position: absolute;
     top: 100%;
     width: 60vw;
+    background-color: black;
 }
 
 .container__botao:checked~.lista-menu {
