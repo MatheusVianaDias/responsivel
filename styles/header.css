@@ -3,6 +3,7 @@
     height: 25px;
     background-image: url(../img/Menu.svg);
     display: inline-block;
+    
 }
 
 .cabeçalho {
@@ -11,6 +12,7 @@
     justify-content: space-between;
     align-items: center;
     position: relative;
+    
 }
 
 .container {
@@ -28,6 +30,7 @@
     top: 100%;
     width: 60vw;
     background-color: black;
+    
 }
 
 .container__botao:checked~.lista-menu {
@@ -38,11 +41,14 @@
 .lista-menu__item {
     padding: 1em;
     background-color: var(--branco);
+  
+    
 }
 
 .lista-menu__titulo {
     color: var(--laranja);
     font-weight: 700;
+  
 }
 
 .lista-menu__link {
@@ -50,6 +56,7 @@
     -webkit-background-clip: text;
     background-clip: text;
     text-transform: uppercase;
+    text-decoration: none;
 }
 
 .container__botao{
