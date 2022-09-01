@@ -72,5 +72,5 @@
     color: var(--branco);
     font-weight: 600;
     text-decoration: none;
-
+    border-radius: 5px 5px;
 }
